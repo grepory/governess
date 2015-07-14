@@ -1,4 +1,4 @@
-package governess
+package main
 
 import (
 	"encoding/json"

@@ -1,0 +1,42 @@
+{
+	"ImportPath": "github.com/opsee/governess",
+	"GoVersion": "go1.4.2",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "code.google.com/p/go-uuid/uuid",
+			"Comment": "null-15",
+			"Rev": "35bc42037350f0078e3c974c6ea690f1926603ab"
+		},
+		{
+			"ImportPath": "github.com/bitly/go-nsq",
+			"Comment": "v1.0.4-9-g8c8eba2",
+			"Rev": "8c8eba2ac6823ce1ba17b3a353eaf5811a21a7f5"
+		},
+		{
+			"ImportPath": "github.com/codegangsta/cli",
+			"Comment": "1.2.0-93-g2bcd11f",
+			"Rev": "2bcd11f863d540a1b190dc03b6c4f634c6ae91d4"
+		},
+		{
+			"ImportPath": "github.com/docker/docker/pkg/units",
+			"Comment": "v1.4.1-4595-g73bd855",
+			"Rev": "73bd855dcc7f5878f9cc638f37a3c2b32a433426"
+		},
+		{
+			"ImportPath": "github.com/mreiferson/go-snappystream",
+			"Comment": "v0.2.3",
+			"Rev": "028eae7ab5c4c9e2d1cb4c4ca1e53259bbe7e504"
+		},
+		{
+			"ImportPath": "github.com/op/go-logging",
+			"Rev": "e5fb9bb8a3a168cc269b38f092b65d2e18cebb9a"
+		},
+		{
+			"ImportPath": "github.com/samalba/dockerclient",
+			"Rev": "5ba36c1ad5b75c34be407bfaac51bd02ccb8c654"
+		}
+	]
+}

@@ -8,7 +8,6 @@ import (
 	"code.google.com/p/go-uuid/uuid"
 
 	"github.com/codegangsta/cli"
-	"github.com/opsee/governess/governess"
 	"github.com/opsee/governess/messaging"
 )
 
@@ -31,7 +30,7 @@ func govern(c *cli.Context) {
 		panic(err)
 	}
 
-	g := governess.NewGoverness(c.String("tag"), consumer, docker)
+	g := NewGoverness(c.String("tag"), consumer, docker)
 	g.Govern()
 }
 

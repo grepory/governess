@@ -1,10 +1,10 @@
 # Governess
 
-Governess is responsible for monitoring running docker containers and
-triggering a restart when it receives an event indicating that a new version of
-the container is available.
+Governess is responsible for monitoring running docker and stopping or killing
+any outdated containers. It is a teaching instrument for building reliable
+distributed systems using CoreOS, Docker, Systemd, Fleet, and Go.
 
-Events are received via [NSQ](http://nsq.io/) and should serialize into a governess.Event object.
+Events are received via [NSQ](http://nsq.io/) and should serialize into a messaging.Event object.
 
 ## Configuration
 
