@@ -1,4 +1,4 @@
 FROM kiasaki/alpine-golang
 
-ADD ./governess /
+ADD ./bin/governess /
 ENTRYPOINT ["/governess"]

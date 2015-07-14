@@ -8,7 +8,7 @@ dependencies:
   pre:
     - docker info
     - go get github.com/tools/godep
-    - godep go build -o governess ./...
+    - godep go build -o bin/governess .
     - docker build -t opsee/governess
 deployment:
   ami:
